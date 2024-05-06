@@ -1,12 +1,13 @@
 # Photo Gallery in PHP
 The project was done as a part of my university study.
 
-The application is server-side focused (minimal front-end) and is implemented in PHP language, without the use of external frameworks. The gallery allows adding new image files and viewing those previously uploaded to the server. The application allows proper user registration, login and logout. The information presented on the page varies depending on whether the user is logged in or not - according to the guidelines in the following sections.
+The application is server-side focused (minimal front-end) and is implemented in PHP language, without the use of external frameworks. The gallery allows adding new image files and viewing those previously uploaded to the server. The application allows proper user registration, login and logout. The information presented on the page varies depending on whether the user is logged in or not - according to the guidelines in the following sections. The application was implemented according to the MVC pattern.
 
-Application's language is Polish.
+The codebase is in English, however the application itself is in Polish.
 
-# Features
+# Features overview
 
+Description of application features:
 - Uploading files to the server
   - Only PNG or JPG files are allowed. They cannot exceed 1 MB in size.
   - During the upload, user is required to enter watermark text. On server side, text is applied to the original photo. Simultaneously, thumbnail (small resolution copy of original without watermark) is created.
