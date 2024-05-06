@@ -3,6 +3,8 @@ The project was done as a part of my university study.
 
 The application is server-side focused (minimal front-end) and is implemented in PHP language, without the use of external frameworks. The gallery allows adding new image files and viewing those previously uploaded to the server. The application allows proper user registration, login and logout. The information presented on the page varies depending on whether the user is logged in or not - according to the guidelines in the following sections. The application was implemented according to the MVC pattern.
 
+It was required to prepare runtime environment for the application. The environment constisted of Debian on VirtualBox machine, configured accordingly for needs of application: the Apache HTTP server and MongoDB were installed; some file and folder manipulation were done to connect outside development folder with internal, debian's one; some tweaks in Apache config.
+
 The codebase is in English, however the application itself is in Polish.
 
 # Features overview
