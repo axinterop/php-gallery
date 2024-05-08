@@ -1,5 +1,4 @@
 # Photo Gallery in PHP
-The project was done as a part of my university study.
 
 The application is server-side focused (minimal front-end) and is implemented in PHP language, without the use of external frameworks. The gallery allows adding new image files and viewing those previously uploaded to the server. The application allows proper user registration, login and logout. The information presented on the page varies depending on whether the user is logged in or not - according to the guidelines in the following sections. The application was implemented according to the MVC pattern.
 
